@@ -1,5 +1,21 @@
 # wmr
 
+## 1.5.2
+
+### Patch Changes
+
+- [`18952d1`](https://github.com/preactjs/wmr/commit/18952d11280644670eb01f11fe89f37ee7177295) [#526](https://github.com/preactjs/wmr/pull/526) Thanks [@developit](https://github.com/developit)! - Bind to localhost by default instead of ::0 (in both `wmr start` and `wmr serve`).
+
+* [`19bb41c`](https://github.com/preactjs/wmr/commit/19bb41c9d929ff3f51d72030071d0ce55a7ef8db) [#523](https://github.com/preactjs/wmr/pull/523) Thanks [@JoviDeCroock](https://github.com/JoviDeCroock)! - Eagerly load "\_wmr.js" in the "index.html" file to provide graceful error-fallbacks
+
+- [`30644b3`](https://github.com/preactjs/wmr/commit/30644b39434f1bfd82cd54302e37fbe601effdcf) [#520](https://github.com/preactjs/wmr/pull/520) Thanks [@marvinhagemeister](https://github.com/marvinhagemeister)! - Fix code frame indentation with tabs and remove ansi codes from code frames logged in the browser. And while we're at it make it pretty too!
+
+* [`9a6777f`](https://github.com/preactjs/wmr/commit/9a6777ff186a288ce126d473013c41d1b8f33bc3) Thanks [@developit](https://github.com/developit)! - Fix router transitions between suspended routes
+
+- [`31c83e7`](https://github.com/preactjs/wmr/commit/31c83e74fc0814481445c4b152625041751c2a1f) [#522](https://github.com/preactjs/wmr/pull/522) Thanks [@marvinhagemeister](https://github.com/marvinhagemeister)! - Allow plugins to overwrite url and json loading behavior. Default loading semantics will only apply if no other prefix is present on the import specifier
+
+* [`1907901`](https://github.com/preactjs/wmr/commit/1907901f49bb425c2b885e59e8fcd8cc778aeab5) [#513](https://github.com/preactjs/wmr/pull/513) Thanks [@marvinhagemeister](https://github.com/marvinhagemeister)! - Add more path resolution messages in debug mode
+
 ## 1.5.1
 
 ### Patch Changes
